@@ -1,0 +1,17 @@
+{
+  "name": "proxy-server",
+  "version": "0.0.1",
+  "description": "A demo proxy server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "run": "node index.js",
+    "start": "nodemon index.js"
+  },
+  "author": "kingdaa",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.69.0",
+    "yargs": "^3.32.0"
+  }
+}
